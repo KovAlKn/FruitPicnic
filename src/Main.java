@@ -18,7 +18,7 @@ public class Main {
        fruits.removeIf(String::isEmpty);
        System.out.println("\nКол-во слов в файле: "+fruits.size());
 
-        HashMap<String,Integer> frequencyOfFruits = new HashMap<String, Integer>();
+        HashMap<String,Integer> frequencyOfFruits = new HashMap<>();
         int maxWordLength=0;
         ArrayList<String> LongestWord=new ArrayList<>();
         for(String fruit : fruits) {
